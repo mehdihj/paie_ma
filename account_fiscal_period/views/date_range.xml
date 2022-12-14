@@ -16,8 +16,10 @@
                 </xpath>
 
                 <field name="date_end" position="after" >
-                    <field name="previous_fiscal_year" domain="[('type_id.fiscal_year','=',True)]"/>
-                    <field name="next_fiscal_year" domain="[('type_id.fiscal_year','=',True)]"/>
+                    <!-- <field name="previous_fiscal_year" domain="[('type_id.fiscal_year','=',True)]"/> -->
+					<field name="previous_fiscal_year"/>
+                    <!-- <field name="next_fiscal_year" domain="[('type_id.fiscal_year','=',True)]"/> -->
+					<field name="next_fiscal_year" />
                 </field>
 
                 <form position="inside">
